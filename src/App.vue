@@ -26,6 +26,7 @@
           <b-nav-item to="/" exact>Home</b-nav-item>
           <b-nav-item to="/leaderboard">Leaderboard</b-nav-item>
           <b-nav-item to="/play">Play</b-nav-item>
+          <b-nav-item to="/tutorial">Tutorial</b-nav-item>
           <b-nav-item to="/upload" v-if="userData.admin">Upload</b-nav-item>
         </b-navbar-nav>
 
